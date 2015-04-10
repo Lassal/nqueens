@@ -16,7 +16,7 @@ import java.util.Date;
 public class NQueensCountOutput implements NQueensOutput{
     
     private int boardSize = -1;
-    private long solutionCount = 0;
+    protected long solutionCount = 0;
     private Date startProcessing = null;
     private Date endProcessing = null;
     

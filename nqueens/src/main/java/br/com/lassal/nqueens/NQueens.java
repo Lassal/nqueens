@@ -6,6 +6,7 @@
 
 package br.com.lassal.nqueens;
 
+import br.com.lassal.nqueens.output.NQueensConsoleOutput;
 import br.com.lassal.nqueens.output.NQueensCountOutput;
 import br.com.lassal.nqueens.output.NQueensOutput;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -73,7 +74,7 @@ public class NQueens {
                     else if(paramValue[0].startsWith("-output")){
                         
                         if(paramValue[1].toLowerCase().equals("console")){
-                            NQueens.defaultOutput = null;
+                            NQueens.defaultOutput = new NQueensConsoleOutput();
                         }
                         else if(paramValue[1].toLowerCase().equals("json")){
                             NQueens.defaultOutput = null;
