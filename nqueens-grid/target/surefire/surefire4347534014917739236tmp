@@ -1,7 +1,0 @@
-#surefire
-#Wed Jul 30 20:44:36 BRT 2014
-maven.ext.class.path=C\:\\Program Files\\NetBeans 8.0\\java\\maven-nblib\\netbeans-eventspy.jar
-user.dir=J\:\\Workspace_Java\\BigData\\nqueens-grid
-file.encoding=UTF-8
-localRepository=C\:\\Users\\Lucalves33\\.m2\\repository
-basedir=J\:\\Workspace_Java\\BigData\\nqueens-grid
