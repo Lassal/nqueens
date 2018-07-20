@@ -3,10 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'pwd'
-                sh '. cd nqueens-grid/' 
-                sh 'pwd'
-                sh 'mvn package'
+                sh 'mvn -f nqueens-grid/pom.xml clean package'
             }
         }
     }
