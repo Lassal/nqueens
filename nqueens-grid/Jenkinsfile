@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'pwd'
-                sh 'cd nqueens-grid/' 
+                sh '. cd nqueens-grid/' 
                 sh 'pwd'
                 sh 'mvn package'
             }
